@@ -1,0 +1,50 @@
+
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background: linear-gradient(to right, #000, #111111);
+  color: white;
+  text-align: center;
+  padding: 20px;
+}
+
+#click-img {
+  width: 150px;
+  height: 150px;
+  margin: 20px;
+  border-radius: 50%;
+  cursor: pointer;
+  transition: transform 0.1s ease;
+}
+
+#click-img:active {
+  transform: scale(1.1);
+}
+
+button {
+  padding: 10px 20px;
+  margin: 10px;
+  background: #ff0050;
+  color: white;
+  border: none;
+  border-radius: 10px;
+  font-size: 1em;
+  cursor: pointer;
+}
+
+#shop {
+  background: #111;
+  padding: 20px;
+  margin-top: 30px;
+  border-radius: 10px;
+}
+
+input {
+  padding: 10px;
+  margin: 5px;
+  width: 80%;
+  max-width: 300px;
+  border-radius: 8px;
+  border: none;
+  font-size: 1em;
+}
